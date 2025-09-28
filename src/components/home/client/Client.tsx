@@ -4,7 +4,7 @@ import ClientCard from "./ClientCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import type { Swiper as SwiperClass } from "swiper";
 import { IoArrowBackOutline, IoArrowForwardOutline } from "react-icons/io5";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export default function Client() {
   const ref = useRef<SwiperClass | null>(null);
@@ -12,6 +12,7 @@ export default function Client() {
   const cliens = [1, 2, 3, 4, 5, 6];
 
   const t = useTranslations("client");
+  const locale = useLocale();
   return (
     <div className="py-20 bg-primary-1">
       <div className="container">
@@ -35,7 +36,13 @@ export default function Client() {
           ))}
         </Swiper>
 
-        <div className="mt-10 flex items-center gap-5 sm:justify-end justify-center">
+        <div
+          className={`mt-10 flex ${
+            locale === "ar"
+              ? "flex-row-reverse sm:justify-start"
+              : "sm:justify-end"
+          } items-center gap-5 justify-center`}
+        >
           {" "}
           <button
             className="text-white md:w-17 w-12 md:h-17 h-12 flex flex-center rounded-full bg-white/10 hover:bg-white hover:text-primary-1 duration-300 cursor-pointer"
