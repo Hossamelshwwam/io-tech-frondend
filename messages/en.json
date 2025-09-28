@@ -1,0 +1,93 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About us",
+    "services": "Services",
+    "webDev": "Web Development",
+    "design": "UI/UX Design",
+    "consulting": "Consulting",
+    "blog": "Blog",
+    "team": "Our Team",
+    "contact": "Contact us",
+    "appointment": "Book appointment",
+    "search": "search"
+  },
+  "footer": {
+    "contacts": "Contacts",
+    "about": "About",
+    "strategy": "Our Strategy",
+    "advantages": "Our Advantages",
+    "responsibility": "Social Responsibility",
+    "services": "Our Services",
+    "rights": "© 2024 . All rights reserved."
+  },
+  "subscription": {
+    "placeholder": "Email",
+    "button": "Subscribe",
+    "success": "You added your email",
+    "loading": "Loading...",
+    "required": "Email is required",
+    "invalid": "Invalid email address"
+  },
+  "team": {
+    "team": "Our team",
+    "name": "Name Here",
+    "position": "Position Here",
+    "alt": "Team member photo"
+  },
+  "client": {
+    "title": "What our clients are saying",
+    "description": "Our clients range from individual investors, to local, international as well as fortune 500 companies.Our clients range from individual investors, to local, international as well as fortune 500 companies.",
+    "name": "Name Here",
+    "position": "Position Here"
+  },
+  "service": {
+    "title": "Legal Consultation Services",
+    "description": "Law Firm is one of the leading legal offices that offer exceptional advisory services for both individuals and companies. Our mission is to provide comprehensive and specialized legal support to meet our clients' needs and offer the best legal solutions in various cases and legal fields, we provide our legal consultations services as a follow:",
+    "items": [
+      {
+        "title": "General Legal Consultations",
+        "desc": "At Law Firm, we provide comprehensive legal consultations covering all legal aspects that our clients may encounter in their daily lives or business activities. Our goal is to offer accurate legal advice based on a deep understanding of local and international laws."
+      },
+      {
+        "title": "Corporate Legal Consultations",
+        "desc": "We at the Law Firm understand the importance of legal consultations for companies in building and enhancing their businesses. Our advisory services about:",
+        "details": [
+          "Establishing and registering companies.",
+          "All kinds of contracts and agreements.",
+          "Commercial disputes.",
+          "Compliance with local and international laws and regulations."
+        ]
+      },
+      {
+        "title": "Individual Legal Consultations",
+        "desc": "Law Firm offers customized advisory services for individuals, including:",
+        "details": [
+          "Family issues such as divorce, alimony, and custody.",
+          "Real estate matters like buying, selling, and renting properties.",
+          "Employment issues such as hiring and wrongful termination.",
+          "Criminal cases and defending personal rights."
+        ]
+      }
+    ]
+  },
+  "search": {
+    "services": "Services",
+    "teams": "Teams",
+    "noResultsTitle": "No results found",
+    "noResultsDesc": "Try another keyword or change the filter.",
+    "placeholder": "Search...",
+    "tooShort": "Too short!",
+    "required": "Required",
+    "btn": "Search"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "desc": "Sorry, the page you are looking for doesn’t exist or has been moved.",
+    "back": "Back to Home"
+  },
+  "global": {
+    "readMore": "read more",
+    "back": "back"
+  }
+}

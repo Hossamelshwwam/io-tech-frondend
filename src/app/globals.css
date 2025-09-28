@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-1: #4b2615;
+  --color-primary-2: #643f2e;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1280px;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 xl:!max-w-[1280px];
+  }
+  .flex-center {
+    @apply justify-center items-center;
+  }
+  .h-fullscreen {
+    @apply h-[calc(100vh-75px)];
+  }
+}
